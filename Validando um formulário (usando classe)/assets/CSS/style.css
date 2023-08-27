@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background: rgb(0, 156, 156);
+    color: white;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    gap: 5px;
+    align-items: center;
+    background: rgb(2, 125, 147);
+    max-width: 550px;
+    margin-left: 300px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.container h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    background: rgba(47, 106, 151, 0.611);
+    border-radius: 10px;
+}
+
+.container p{
+    padding: 20px;
+    text-align: justify;
+}
+
+.container form{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 30px;
+    background: rgb(1, 32, 40);
+    border-radius: 10px;
+    gap: 5px;
+}
+
+.container input{
+    width: 100%;
+    display: flex;
+    height: 30px;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+
+
+
+.relogio {
+    font-size: 3em;
+}
+
+.pausado{
+    color: red;
+}
+
+.calculadora{
+    width: 400px;
+}
+
+.display{
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+    border: none;
+    background: #f1f2f1;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.btn:hover{
+    background: #a3a3a3;
+}
+
+.btn-eq{
+    background: #cacaca;
+}
+
+label{
+    width: 100%;
+}
+
+input{
+    border: 1px solid white;
+    color: white;
+    background: transparent;
+    margin: 10px;
+}
+
+.enviar{
+    background: white;
+    color: black;
+}
+
+
+.error-text{
+    color: red;
+    font-size: .5em;
+}
